@@ -1,0 +1,19 @@
+<form>
+    <div class="form-group">
+        <label for="exampleInputUsername1">Username</label>
+        <input type="text" name='username' class="form-control" id="exampleInputUsername1" placeholder="{{username}}" [(ngModel)]="username">
+      </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="text" name='email' class="form-control" id="exampleInputEmail1"  placeholder="{{email}}" [(ngModel)]="email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputBirthdate1">Birthdate</label>
+      <input type="text" name='birthdate' class="form-control" id="exampleBirthdate1" placeholder="{{birthdate}}" [(ngModel)]="birthdate">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputAge1">Age</label>
+        <input type="text" name='age' class="form-control" id="exampleInputage1" placeholder="{{age}}" [(ngModel)]="age">
+      </div>
+    <button type="submit" class="btn btn-primary" value="Submit" (click)="changeData()">Submit</button>
+  </form>
